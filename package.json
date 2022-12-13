@@ -1,0 +1,27 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe App",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emetos05/forkify.git"
+  },
+  "author": "Daniel Emehinola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emetos05/forkify/issues"
+  },
+  "homepage": "https://github.com/emetos05/forkify#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.1",
+    "parcel": "^2.8.1"
+  },
+  "dependencies": {
+    "core-js": "^3.26.1",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
