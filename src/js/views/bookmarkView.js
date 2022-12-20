@@ -6,6 +6,10 @@ class BookmarkView extends View {
   _errorMessage = 'No bookmarks yet.';
   _message = '';
 
+  addHandlerRender(handler) {
+    window.addEventListener('load', handler);
+  }
+
   _generateMarkup() {
     return this._data.map(res => previewView.render(res, false)).join('');
   }
