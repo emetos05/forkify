@@ -3,6 +3,12 @@ import icons from 'url:../../img/icons.svg';
 export default class View {
   _data;
 
+  /**
+   * Render received object to DOM
+   * @param {Object | Object[]} data Data to be rendered (e.g. recipe)
+   * @param {Boolean} [render=true] If false, create markup and not render to DOM
+   * @returns {undefined | string}
+   */
   // Render data on view
   render(data, render = true) {
     if (!data || (Array.isArray(data) && data.length === 0))
@@ -17,6 +23,11 @@ export default class View {
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
 
+  /**
+   *
+   * @param {Object | Object[]} data Data to be updated on rendered page (e.g. recipe)
+   * @returns {string}
+   */
   // Updating changed contents on view
   update(data) {
     this._data = data;
