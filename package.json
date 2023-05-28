@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/emetos05/forkify/issues"
   },
-  "homepage": "https://emetos05.github.io/forkify",
+  "homepage": "https://emetos05.github.io/forkify/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.1",
     "gh-pages": "^5.0.0",
