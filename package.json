@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist",
-    "build-prod": "rm -rf dist && parcel build index.html --public-url https://github.com/emetos05/forkify.git",
+    "build-prod": "rm -rf dist && parcel build index.html --public-url https://emetos05.github.io/forkify",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
