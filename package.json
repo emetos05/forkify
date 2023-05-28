@@ -5,7 +5,8 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,9 +17,10 @@
   "bugs": {
     "url": "https://github.com/emetos05/forkify/issues"
   },
-  "homepage": "https://github.com/emetos05/forkify#readme",
+  "homepage": "https://emetos05.github.io/forkify",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.1",
+    "gh-pages": "^5.0.0",
     "parcel": "^2.8.1",
     "process": "^0.11.10"
   },
